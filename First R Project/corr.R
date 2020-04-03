@@ -22,4 +22,12 @@ corr <- function(directory="specdata", threshold = 0) {
     correl
 }
 
+#Test
+cr <- corr("specdata", 400)
+head(cr)
+## [1] -0.01895754 -0.04389737 -0.06815956 -0.07588814  0.76312884 -0.15782860
+summary(cr)
+##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+## -0.17623 -0.03109  0.10021  0.13969  0.26849  0.76313
+
 
